@@ -7,7 +7,7 @@ Plugin.registerSourceHandler("tpl.md", function (compileStep) {
   if (! compileStep.arch.match(/^browser(\.|$)/))
     return;
 
-  var templateName = compileStep.inputPath.slice(0, - ("tpl.md".length + 1));
+  var templateName = compileStep.inputPath.slice(0, - ".tpl.md".length);
 
   // Parse and compile the content
   var content = compileStep.read().toString('utf8');
