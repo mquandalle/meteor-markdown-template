@@ -1,0 +1,8 @@
+{
+  "name": "markdown template",
+  "description": "Markdown templates rendered on the server",
+  "author": "Maxime QUANDALLE <maxime@quandalle.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/mquandalle/meteor-markdown-template",
+  "homepage": "https://github.com/mquandalle/meteor-markdown-template"
+}
